@@ -1,0 +1,14 @@
+curl --request POST \
+ --url https://consultaqr.facturaelectronica.sat.gob.mx/ConsultaCFDIService.svc \
+ --header 'Accept:text/xml' \
+ --header 'Content-Type: text/xml; charset="utf-8"' \
+ --header 'SOAPAction: "http://tempuri.org/IConsultaCFDIService/Consulta"' \
+ --data '<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+    <Body>
+        <Consulta xmlns="http://tempuri.org/">
+            <expresionImpresa>
+		<![CDATA[?re=AAA010101AAA&rr=E&Ñ831019M53&tt=40600.00&id=25319d60-3bee-45cc-998a-36248be417ae]]>
+            </expresionImpresa>
+        </Consulta>
+    </Body>
+</Envelope>'

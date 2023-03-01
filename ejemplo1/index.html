@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        myFunction2(this);
+    }
+};
+xhttp.open("GET", "datos.xml", true);
+xhttp.send();
+
+function myFunction2(xml){
+	var xmlDoc = xml.responseXML;
+    document.getElementById("demo").innerHTML =
+    "re="+
+    xmlDoc.getElementsByTagName("cfdi:Emisor")[0].getAttribute('rfc')
+    + "&rr=" +
+    xmlDoc.getElementsByTagName("cfdi:Receptor")[0].getAttribute('rfc')
+    + "&tt=" +
+    xmlDoc.getElementsByTagName("cfdi:Comprobante")[0].getAttribute('total')
+    + "&id=" +
+    xmlDoc.getElementsByTagName("tfd:TimbreFiscalDigital")[0].getAttribute('UUID')
+}
+</script>
+
+</body>
+</html>
