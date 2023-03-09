@@ -976,11 +976,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jiro\\soap-test\\soap-test.csproj",
+      "projectUniqueName": "C:\\Users\\Jiro\\CODE\\Integracion Repositorio\\practica02\\soap-test.csproj",
       "projectName": "soap-test",
-      "projectPath": "C:\\Users\\Jiro\\soap-test\\soap-test.csproj",
+      "projectPath": "C:\\Users\\Jiro\\CODE\\Integracion Repositorio\\practica02\\soap-test.csproj",
       "packagesPath": "C:\\Users\\Jiro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jiro\\soap-test\\obj\\",
+      "outputPath": "C:\\Users\\Jiro\\CODE\\Integracion Repositorio\\practica02\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jiro\\AppData\\Roaming\\NuGet\\NuGet.Config"

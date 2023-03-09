@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "C6JDhWUqUHH9+Ko4Z1yfILmHwdolG0xNZcdRDsPG8D0=",
+  "Source": "soap-test",
+  "BasePath": "_content/soap-test",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
