@@ -68,7 +68,7 @@ public class EndPoint {
         VerResponse respuesta = new VerResponse();
         Iterable<Saludador> lista = iSaludador.findAll();
         for(Saludador elemento: lista){
-            elemento.getNombre();
+            respuesta.getRespuesta().add("Nombre: "+elemento.getNombre()+" ID: "+elemento.getId());
         }
         return respuesta;
     }
